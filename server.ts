@@ -6,4 +6,4 @@ const app = new Application();
 app.use(router.routes());
 app.use(router.allowedMethods());
 
-await app.listen("localhost:3333");
+await app.listen("localhost:3333"); 
